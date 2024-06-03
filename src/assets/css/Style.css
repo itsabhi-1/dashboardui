@@ -1,0 +1,109 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+:root {
+    --light: #f6f6f9;
+    --primary: #7a6fbe;
+    --light-primary: #CFE8FF;
+    --grey: #black;
+    --dark-grey: #AAAAAA;
+    --light-dark: #363949;
+    --dark:black;
+    --danger: #D32F2F;
+	--light-danger: #FECDD3;
+    --warning: #FBC02D;
+    --light-warning: #FFF2C6;
+    --success: #7a6fbe;
+    --light-success: #BBF7D0;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.bx{
+    font-size: 1.4rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+ul{
+    padding: 0;
+}
+html{
+    overflow-x: hidden;
+}
+
+body.dark{
+    --light: #181a1e;
+    --grey: #25252c;
+    --dark: #fbfbfb
+}
+
+body{
+    background: var(--grey);
+    overflow-x: hidden;
+}
+
+.main_content {
+    /* margin-left: 15%; */
+    overflow: hidden;
+    background: #1f2431;
+    /* max-width: 90%; */
+}
+.mini-stat{
+    background: #7a6fbe;
+}
+.page_content {
+    padding: 20px .75rem 60px;
+}
+.page_title_box {
+    padding-bottom: 1.5rem;
+    margin-top: 30px;
+    color: #adb5bd;
+}
+.hideScrollbar {
+    scrollbar-width: none; /* For Firefox */
+    -ms-overflow-style: none; /* For Internet Explorer and Edge */
+  }
+  
+  .hideScrollbar::-webkit-scrollbar {
+    display: none; /* For Chrome, Safari, and Opera */
+  }
+.card{
+    box-shadow: 0 -3px 31px 0 #0000000d, 0 6px 20px 0 #00000005;
+    margin-bottom: 1.5rem;
+    background: #2a3142;
+}
+.card_body{
+    border-radius: 0.25rem;
+    padding: 20px;
+    background: rgb(122, 111, 190, 0.7);
+}
+.charts-lable{
+    color: #adb5bd;
+    margin-bottom: 40px;
+    font-size: 16;
+}
+.n_av,
+.left_nav{
+    align-items: center;
+}
+.n_av{
+    justify-content: space-between;
+}
+.logo-name{
+    color: #ffffff;
+}
+.logo-name>span{
+    color: #7a6fbe;
+}
+
